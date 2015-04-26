@@ -1,11 +1,13 @@
+module Sudoku
+(solve ) where
+
 import qualified Data.Map as Map 
 import qualified Data.List as List 
 import qualified Data.Char as Char 
 import qualified Data.Set as Set 
-import qualified Debug.Trace as Trace
 
-main = do
-  interact (unlines . (map solve) . lines )
+--main = do
+--  interact (unlines . (map solve) . lines )
 
 unit_size :: Int
 rows_in_quadrant :: Int

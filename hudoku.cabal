@@ -1,0 +1,30 @@
+name:                hudoku
+version:             0.0.1
+synopsis:            My sudoku server
+homepage:            https://github.com/thomaswhitcomb/haskell-sudoku
+license:             MIT
+author:              Tom Whitcomb
+maintainer:          thomaswhitcomb@gmail.com
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable hudoku
+  main-is:             Server.hs
+  -- other-modules:       
+  build-depends:       base 
+                     , containers
+                     , wai
+                     , warp
+                     , http-types
+                     , resourcet
+                     , scotty
+                     , text
+                     , bytestring
+                     , blaze-html
+                     , monad-logger 
+                     , heroku
+                     , transformers
+                     , wai-middleware-static
+                     , wai-extra
+                     , time
