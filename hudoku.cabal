@@ -11,8 +11,8 @@ cabal-version:       >=1.8
 
 executable hudoku
   main-is:             Server.hs
-  -- other-modules:       
-  build-depends:       base 
+  -- other-modules:
+  build-depends:       base
                      , containers
                      , wai
                      , warp
@@ -22,7 +22,7 @@ executable hudoku
                      , text
                      , bytestring
                      , blaze-html
-                     , monad-logger 
+                     , monad-logger
                      , heroku
                      , transformers
                      , wai-middleware-static
