@@ -1,2 +1,3 @@
-haskell-sudoku
-==============
+hudoku
+======
+Sudoku implemented in haskell
